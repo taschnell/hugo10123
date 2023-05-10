@@ -32,23 +32,7 @@ def filtered_words(data):
   for word in filterdata:
       x += word + ' '
   y = x[:-1]
-  '''
-  spaces = 0
-  index = 0
-  previous_character = False
-  for letter in y:
-    if letter is ' ':
-        spaces +=1
-        if previous_character:
-            print('Check')
-        previous_character = True
-        index += 1
-    else:
-        previous_character = False
-#    print(letter)
-#  print(spaces)
-#  print(index)
-'''
+  
   return y
 
 
@@ -125,49 +109,6 @@ def complex_word(data):
         complex_words +=1 
 
   return complex_words
-
-
-
-'''
-print(
-word_count('this is a test. Test again!'),
-character_count('this is a test.'),
-sentance_count('this is a test. Test Again. HERE AGAIN!'),
-syllables_count('this is a test.')
-)
-'''
-#Old Code
-'''
-def sentance_count(data):
-  data_1 = data.strip('"')
-  data_2 = data_1.replace('!',".")
-  data_3 = data_2.replace('?',".")
-  sentances = data_3.split('.')
-  sentance_count = len(sentances)-1
-  #print(sentance_count)
-  return sentance_count
-
-def characters(data):
-  data_4 = re.sub(r'[^a-zA-Z-]',' ',data)
-  data_5 = data_4.replace(' ','')
-  return len(data_5)
-
-def word_count(data):
-  data_4 = re.sub(r'[^a-zA-Z-]'," ",data)
-  words = data_4.split()
-  word_count = len(words)
-  #print(word_count)
-  return word_count
-'''
-
-# Consider adding several things to the module here, prior to the function definitions:
-# 1. import statements for library modules (you will probably want at least the math module).
-# 2. Assignment statements preparing variables that will help with syllable counts for words
-#    and the list of "easy" words for the Dale-Chall readability score.
-# 3. Any "helper" functions that you might find useful. Many of readability tests have several
-#    aspects in common, such as needing to calculate the number of words and sentences. Instead of
-#    having redundant code in several functions, consider placing that code in an additional
-#    function that can be called by the others.
 
 
 def automated_readability_index(intake) -> float:
