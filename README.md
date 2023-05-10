@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @hugo10123
-- 👀 I’m interested coding my own programs, as well as networking, and some game design.
-- 🌱 I’m currently learning C++, Python, Unity, and other enviorments and langueges.
-- 📫 How to reach me email at alex.gamer.1970@gmail.com
+- 👀 I’m interested coding my own programs, networking, robotics, and game design.
+- 🌱 I’m currently learning C++, Python, Flutter, and other enviorments and langueges.
+- 📫 Reach Me at schnellteo@gmail.com
 
 <!---
 hugo10123/hugo10123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
