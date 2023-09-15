@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @hugo10123
+- 👋 Hi, I’m Teo Schnell
 - 👀 I’m interested coding my own programs, networking, robotics, and game design.
 - 🌱 I’m currently learning C++, Python, Flutter, and other enviorments and langueges.
 - 📫 Reach Me at schnellteo@gmail.com
